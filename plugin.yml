@@ -1,0 +1,21 @@
+main: me.chip.constructions.Constructions
+name: ChippedConstructions
+version: 0.1
+author: ChippedChap
+description: <Placeholder>
+commands:
+  readconstruction:
+    description: Save specified area into a construction
+    usage: /readconstruction <Name> <Group Perms?> <X> <Y> <Z> <X> <Y> <Z>
+    permission: chipconstr.readblock
+    permission-message: You do not have chipconstr.readblock
+  placeconstruction:
+    description: Place the specified construct
+    usage: /placeconstruction <Read Name>
+    permission: chipconstr.placeblock
+    permission-message: You do not have chipconstr.placeblock
+  startglobalthermonuclearwar:
+    description: Start a Global Thermonuclear War
+    usage: /startglobalthermonuclearwar
+    permission: chipconstr.starttwar
+    permission-message: I don't know how on earth you can't use this command... All humans on the server should be able to use this command. Since you can't use this command, YOU MUST BE A REPTILE.
